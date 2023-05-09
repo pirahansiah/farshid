@@ -1,0 +1,176 @@
+{
+  "main": {
+    "id": "70536ac8e0fc98e2",
+    "type": "split",
+    "children": [
+      {
+        "id": "c3a57dd14dce8bf9",
+        "type": "split",
+        "children": [
+          {
+            "id": "73d43696a1e7598f",
+            "type": "leaf",
+            "dimension": 54.478707782672544,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning Specialization 2022.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2165b9cc0471c7b7",
+            "type": "leaf",
+            "dimension": 45.521292217327456,
+            "state": {
+              "type": "mindmap",
+              "state": {}
+            }
+          }
+        ],
+        "direction": "vertical"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "683d4a08a86adcba",
+    "type": "split",
+    "children": [
+      {
+        "id": "2fef948309414f68",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9db13bd09b2ae9d8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "39ec92ee7682fb28",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "34b56f37811e234e",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3333d6faa9e09c90",
+    "type": "split",
+    "children": [
+      {
+        "id": "328abb65c9858ce5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "971843cb09fcf103",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Machine Learning Specialization 2022.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "da97578741356e11",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Machine Learning Specialization 2022.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c81ec9efd8d9829e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "052a74e16ed4fbbb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Machine Learning Specialization 2022.md"
+              }
+            }
+          },
+          {
+            "id": "cf331213d970488d",
+            "type": "leaf",
+            "state": {
+              "type": "dictionary-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "035097358f1bb2a9",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "73d43696a1e7598f",
+  "lastOpenFiles": [
+    "Personal Management.md",
+    "Boostnote Markdown CheatSheet - Preview!.md",
+    "Markdown Cheat Sheet.md",
+    "Machine Learning Specialization 2022.md",
+    "Pasted image 20220802121945.png",
+    "Pasted image 20220802121853.png",
+    "Pasted image 20220802121949.png",
+    "[Personal Management.md",
+    "README.md"
+  ]
+}
