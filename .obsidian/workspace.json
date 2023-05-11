@@ -4,40 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "c0052bf3f06f701c",
+        "id": "eb798d6de8afc7aa",
         "type": "tabs",
+        "dimension": 59.785202863961814,
         "children": [
           {
-            "id": "eb0c7cf5e041a116",
+            "id": "aa95bc02dfa59873",
+            "type": "leaf",
+            "state": {
+              "type": "mindmap",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "a0f967ea68c3816b",
+        "type": "tabs",
+        "dimension": 40.214797136038186,
+        "children": [
+          {
+            "id": "46530032d05d8c9e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ChatGPT Prompt Engineering for Developers.md",
+                "file": "MindMap/VS Code.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "e4910da5085f97cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notion.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8eda65321ad34bf5",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.2.7"
               }
             }
           }
@@ -115,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ChatGPT Prompt Engineering for Developers.md",
+                "file": "MindMap/VS Code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ChatGPT Prompt Engineering for Developers.md",
+                "file": "MindMap/VS Code.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ChatGPT Prompt Engineering for Developers.md"
+                "file": "MindMap/VS Code.md"
               }
             }
           },
@@ -196,12 +190,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "eb0c7cf5e041a116",
+  "active": "46530032d05d8c9e",
   "lastOpenFiles": [
-    "Machine Learning Specialization 2022.md",
-    "Notion.md",
+    "MindMap",
+    "WebSite/Home.md",
+    "MindMap/VS Code.md",
+    "WebSite/MindMap.md",
+    "WebSite/Documentation.md",
+    "WebSite/Links.md",
+    "WebSite/AI.md",
+    "MindMap/ChatGPT Prompt Engineering for Developers.md",
+    "WebSite",
+    "MindMap/Machine Learning Specialization 2022.md",
+    "MindMap/Notion.md",
     "README.md",
-    "ChatGPT Prompt Engineering for Developers.md",
     "Personal Management.md",
     "Boostnote Markdown CheatSheet - Preview!.md",
     "Markdown Cheat Sheet.md",
