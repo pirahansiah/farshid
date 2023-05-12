@@ -16,10 +16,12 @@ Blog
 			Programming: 
 		Tools
 		Management	
+	YouTube
 	Knowledge
 		Learning
-			Tools/software: L=Linux, M=MacOS, W=Windows, IoT=...
+			Recommended Tools
+				L=Linux, M=MacOS, W=Windows, IoT=...
 		[[Documentation]]
-		Discovery																	
+		Discoveries																	
 Contact
 About

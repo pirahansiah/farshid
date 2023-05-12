@@ -10,6 +10,7 @@
           {
             "id": "a0f967ea68c3816b",
             "type": "tabs",
+            "dimension": 20.618556701030926,
             "children": [
               {
                 "id": "6ebeba97bf5f46d5",
@@ -17,7 +18,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "MindMap/Full Stack Large Language Models Bootcamp.md",
+                    "file": "MindMap/Full Stack Large Language Models Bootcamp 1.md",
                     "mode": "source",
                     "source": false
                   }
@@ -29,18 +30,18 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "MindMap/X11.md",
+                    "file": "WebSite/Documentation.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "13c3a1e40de24a29",
             "type": "tabs",
+            "dimension": 79.38144329896907,
             "children": [
               {
                 "id": "4997b3343c09860c",
@@ -127,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MindMap/X11.md",
+                "file": "MindMap/Full Stack Large Language Models Bootcamp 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MindMap/X11.md",
+                "file": "MindMap/Full Stack Large Language Models Bootcamp 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MindMap/X11.md"
+                "file": "MindMap/Full Stack Large Language Models Bootcamp 1.md"
               }
             }
           },
@@ -208,21 +209,22 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "88d56250aced7b36",
+  "active": "6ebeba97bf5f46d5",
   "lastOpenFiles": [
     "MindMap/Full Stack Large Language Models Bootcamp.md",
-    "MindMap/Notion.md",
+    "MindMap/Full Stack Large Language Models Bootcamp 1.md",
+    "WebSite/Documentation.md",
+    "WebSite/Home.md",
+    "MindMap/Machine Learning Specialization 2022.md",
     "MindMap/X11.md",
+    "MindMap/Notion.md",
     "MindMap/VS Code.md",
     "MindMap",
-    "WebSite/Home.md",
     "WebSite/MindMap.md",
-    "WebSite/Documentation.md",
     "WebSite/Links.md",
     "WebSite/AI.md",
     "MindMap/ChatGPT Prompt Engineering for Developers.md",
     "WebSite",
-    "MindMap/Machine Learning Specialization 2022.md",
     "README.md",
     "Personal Management.md",
     "Boostnote Markdown CheatSheet - Preview!.md",

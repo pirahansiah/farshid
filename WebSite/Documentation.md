@@ -1,3 +1,4 @@
+Newsletter
 [[Books]] 
 	Computer
 	Business & Economics
@@ -8,4 +9,5 @@ Posts (LinkedIn, Twitter, Instagram, ...)
 YouTube
 Courses 
 Inspiring person
+	[Andrej Karpathy](https://www.youtube.com/@AndrejKarpathy) 
 References
