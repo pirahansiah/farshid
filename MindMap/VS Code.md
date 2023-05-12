@@ -54,3 +54,18 @@
 #### Mac: CMD+OPT+UP/Down arrow
 ### Side by side Markdown edit and preview
 #### Windows: Ctrl+K V
+## IoT
+### Install 1
+* git clone https://github.com/JetsonHacksNano/installVSCode.git
+* cd installVSCode
+* ./installVSCode.sh
+* ./installVSCodeWithPython.sh
+* code-oss
+### install 2
+* curl -sSL https://packages.microsoft.com/keys/microsoft.asc | sudo gpg --dearmor -o /usr/share/keyrings/microsoft-archive-keyring.gpg
+* echo "deb [arch=arm64 signed-by=/usr/share/keyrings/microsoft-archive-keyring.gpg] https://packages.microsoft.com/repos/code-insiders/ stable main" | sudo tee /etc/apt/sources.list.d/code-insiders.list
+* sudo apt update
+* sudo apt install code-insiders
+
+
+

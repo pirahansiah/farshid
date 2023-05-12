@@ -4,38 +4,56 @@
     "type": "split",
     "children": [
       {
-        "id": "eb798d6de8afc7aa",
-        "type": "tabs",
-        "dimension": 59.785202863961814,
+        "id": "f79486c5e57cad9a",
+        "type": "split",
         "children": [
           {
-            "id": "aa95bc02dfa59873",
-            "type": "leaf",
-            "state": {
-              "type": "mindmap",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
-        "id": "a0f967ea68c3816b",
-        "type": "tabs",
-        "dimension": 40.214797136038186,
-        "children": [
-          {
-            "id": "46530032d05d8c9e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MindMap/VS Code.md",
-                "mode": "source",
-                "source": false
+            "id": "a0f967ea68c3816b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "6ebeba97bf5f46d5",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "MindMap/Full Stack Large Language Models Bootcamp.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "88d56250aced7b36",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "MindMap/Full Stack Large Language Models Bootcamp.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
-            }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "13c3a1e40de24a29",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "4997b3343c09860c",
+                "type": "leaf",
+                "state": {
+                  "type": "mindmap",
+                  "state": {}
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -109,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MindMap/VS Code.md",
+                "file": "MindMap/Full Stack Large Language Models Bootcamp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MindMap/VS Code.md",
+                "file": "MindMap/Full Stack Large Language Models Bootcamp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MindMap/VS Code.md"
+                "file": "MindMap/Full Stack Large Language Models Bootcamp.md"
               }
             }
           },
@@ -190,11 +208,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "46530032d05d8c9e",
+  "active": "88d56250aced7b36",
   "lastOpenFiles": [
+    "MindMap/Notion.md",
+    "MindMap/X11.md",
+    "MindMap/VS Code.md",
+    "MindMap/Full Stack Large Language Models Bootcamp.md",
     "MindMap",
     "WebSite/Home.md",
-    "MindMap/VS Code.md",
     "WebSite/MindMap.md",
     "WebSite/Documentation.md",
     "WebSite/Links.md",
@@ -202,7 +223,6 @@
     "MindMap/ChatGPT Prompt Engineering for Developers.md",
     "WebSite",
     "MindMap/Machine Learning Specialization 2022.md",
-    "MindMap/Notion.md",
     "README.md",
     "Personal Management.md",
     "Boostnote Markdown CheatSheet - Preview!.md",
