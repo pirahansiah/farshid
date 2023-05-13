@@ -4,57 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "f79486c5e57cad9a",
-        "type": "split",
+        "id": "13c3a1e40de24a29",
+        "type": "tabs",
         "children": [
           {
-            "id": "a0f967ea68c3816b",
-            "type": "tabs",
-            "dimension": 20.618556701030926,
-            "children": [
-              {
-                "id": "6ebeba97bf5f46d5",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "MindMap/Full Stack Large Language Models Bootcamp 1.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "88d56250aced7b36",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "WebSite/Documentation.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
+            "id": "04c96dfb7baf63c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MindMap/Full Stack Large Language Models Bootcamp.md",
+                "mode": "source",
+                "source": false
               }
-            ]
-          },
-          {
-            "id": "13c3a1e40de24a29",
-            "type": "tabs",
-            "dimension": 79.38144329896907,
-            "children": [
-              {
-                "id": "4997b3343c09860c",
-                "type": "leaf",
-                "state": {
-                  "type": "mindmap",
-                  "state": {}
-                }
-              }
-            ]
+            }
           }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
@@ -128,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MindMap/Full Stack Large Language Models Bootcamp 1.md",
+                "file": "MindMap/Full Stack Large Language Models Bootcamp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MindMap/Full Stack Large Language Models Bootcamp 1.md",
+                "file": "MindMap/Full Stack Large Language Models Bootcamp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MindMap/Full Stack Large Language Models Bootcamp 1.md"
+                "file": "MindMap/Full Stack Large Language Models Bootcamp.md"
               }
             }
           },
@@ -209,10 +174,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "6ebeba97bf5f46d5",
+  "active": "04c96dfb7baf63c2",
   "lastOpenFiles": [
     "MindMap/Full Stack Large Language Models Bootcamp.md",
-    "MindMap/Full Stack Large Language Models Bootcamp 1.md",
+    "MindMap/Full Stack Large Language Models Bootcamp.md",
     "WebSite/Documentation.md",
     "WebSite/Home.md",
     "MindMap/Machine Learning Specialization 2022.md",

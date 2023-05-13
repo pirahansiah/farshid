@@ -1,7 +1,6 @@
 # LLMBC 2023
 ## 0 
 Launch an LLM App in One Hour (LLM Bootcamp)
-
 * Prototyping & Iteration
 	* “Foundation models” have unblocked a lot of applications
 	* Prototype with a high-capability hosted model in chat first
@@ -91,4 +90,30 @@ Launch an LLM App in One Hour (LLM Bootcamp)
 		* RLHF on conversations
 		* ChatML format (messages from system, assistant, user roles)
 * Retrieval-enhanced transformer (2021)
+## 2
+* Prompt Engineering
+	* learn the genie's rules
+	* a golem is a magical artificial agent
+* tricks
+	* few-show learning is not a great model
+	* dealing with tokenization
+* models don't see characters, they see tokens
+* add spaces between the letters in the following word: "      " 
+	* GPT-3 see the letters separately and each letter becomes its own token
+* a playbook is emerging
+	* structured text 
+		* pseudocode  
+	* decomposition and reasoning
+		* breakdown tasks: paper "decomposed prompting"
+		* try and automate it
+		* reasoning by few-shot prompting with CoT (chain-of-thought)
+			* **let's think step by step**
+	* self-criticism
+		* **review your previous answer and find problems with your answer**
+		* **based on the problems you found, improve your answer** 
+	* ensembling 
+		* paper: self-consistency improves chain of thought
+		* Tip: inject randomness for greater heterogeneity. 
+	* compose these tricks for the best accuracy.
+
 
