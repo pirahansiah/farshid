@@ -1,4 +1,13 @@
-# LLMBC 2023
+# LLMBC 2023 - LLM Bootcamp
+0 Launch an LLM App in One Hour 
+1 LLM Foundations 
+2 Learn to Spell: Prompt Engineering 
+3 Augmented Language Models 
+4 Project Walkthrough: askFSDL
+5 UX for Language User Interfaces
+6 LLMOps
+7 What's Next?
+
 ## 0 
 Launch an LLM App in One Hour (LLM Bootcamp)
 * Prototyping & Iteration
@@ -48,13 +57,13 @@ Launch an LLM App in One Hour (LLM Bootcamp)
 					* skip connections / residual blocks
 						* output=module(input) + input
 				* 2.3
-					* layer Normalisation
+					* layer Normalization
 				* 2.4 
 					* feed forward layer 
 			* 3 
 		* simultaneously
 			* expressive in the forward pass
-			* optimisable via back-propagation + gradient descent
+			* optimizable via back-propagation + gradient descent
 			* efficient hight parallelism compute graph 
 	* RASP 2021
 		* programming language of transformer-implementable operations
@@ -115,5 +124,144 @@ Launch an LLM App in One Hour (LLM Bootcamp)
 		* paper: self-consistency improves chain of thought
 		* Tip: inject randomness for greater heterogeneity. 
 	* compose these tricks for the best accuracy.
+## 3
+* how to make the most of a limited context by augmenting the language model 
+* retrieval: augment with a bigger corpus
+	* traditional 
+		* query, object, relevance, ranking
+		* document ingestion, document processing, transaction handling, scaling via shards, ranking & relevance, ...
+	* AI
+		* vectors are a compact, universal representation of data
+		* embedding
+			* word2vec
+			* a solid baseline: sentence transformers
+			* a multimodal option: CLIP
+			* OpenAI embedding: text-embedding-ada-002
+			* **instructor**
+	* ANN index
+	* embedding database
+	* llamaindex 	 
+* chains: augment with more LLM calls
+	* if you want reliability
+	* building chains of LLM calls
+		* QA pattern
+		* HyDE
+		* summarization 
+	* tools
+		* **LangChain** 
+* tools: augment with outside sources
+	* if you want more flexible way
+	* ChatGPT plugins 
+		* if you want interactivity/ flexibility
+## 4
+Project Walkthrough
+* ask-fsdl
+	* make
+	* .pre-commit-config.yaml 
+		* for code cleanliness 
+		* black for python : autoformatting
+		* **ruff-pre-commit**
+			* flake 8 for linting
+		* shellcheck-py
+		* pre-commit run --all-files
+	* ETL
+		* data processing 
+			* for improvement **spending time with data**
+			* PDF ?
+				* its like image format
+				* code
+					* 
+					* 
+			* preserve structure: links, paragraph, ...
+				* pip: mistune, slugify, 
+			* get YouTube captions
+				* pip: youtube_transcript_api
+		* data storage			
+			* MongoDB
+	* tool: modalport
+		* vm in modos cloud for each task
+		* https://modal.com/
+		* example
+			* pyenv shell 3.10.9
+			* pyenv activate ask-fsdl
+			* make debugger
+	* pip: gradio
+		* @modal.asgi_app
+		* insted javascript use LLM to create page by text
+	* async with
+	* fastAPI
+	* challenges
+		* improving the retrieval
+			* information retrieval 
+		* improving the quality of the model outputs
+			* https://logit.io/blog/post/distributed-tracing-tools/ 
+			* log: datadog, sentry, honeycomb, 
+			* pip: **gantry** 
+		* identifying a like solid user base 
+## 5
+* UI principles
+	* book: the design of everyday things (Don Norman)
+		* human-centered design
+		* \affordances and signifiers
+		* mapping and feedback
+		* have empathy for the user
+	* book: don't make me think (Steve Krug)
+		* design for scanning, not reading
+		* make actionable things unambiguous, instinctive, and conventional 
+		* less is more
+		* testing with real users is crucial
+* LUI patterns
+* Case studies
+## 6
+* Choosing your base model
+	* T5, Flan-T5: google ai, 12B,2K, apache 2.0
+* Iteration and prompt management
+	* level 3
+		* track prompts in a specialized tool
+		* for running parallel evals, decoupling prompt changes from deploys, 
+		* or involving non-technical stakeholder
+		* tools
+			* W&B
+			* comet
+			* mlflow
+* Testing
+	* what metric?
+	* 1. start incrementally
+		* save interesting: hard, different
+	* 2. use your LLM to help
+		* auto-evaluator 
+	* 3. add more data as you roll out
+		* hard data
+		* different data
+	* 4. toward "test coverage" for AI?	
+	* evaluation metrics for LLMs 
+* Deployment
+	* https://blog.replit.com/llm-training
+	* self-critique : guardrails.ai
+	* sample many times
+		* choose the best option
+		* ensemble
+* Monitoring 
+* Continual improvement and fine-tuning
+	* user feedback 
+	* Supervised fine-tuning of LLMs: https://magazine.sebastianraschka.com/p/finetuning-large-language-models
+		* 1) Feature-Based Approach
+		* 2) Finetuning I – Updating The Output Layers
+		* 3) Finetuning II – Updating All Layers
+* conclusion
+	* test-driven development for LLMs
+## 7
+* Transformers can be used for vision
+* PaLM-E is scarily capable
+* RWKV: RNNs strike back
+* www.pirahansiah.com 
 
 
+
+```
+import json
+with open(json_path) as f:
+	pdf_infos=json.load(f)
+pdf_urls = [pdf[ürl"] for pdf in pdf_infos]
+results = list(extract_pdf.map(pdf_urls, return_exceptions=True))
+add_to_document_db.call(results)
