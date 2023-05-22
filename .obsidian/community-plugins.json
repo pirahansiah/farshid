@@ -1,5 +1,4 @@
 [
-  "obsidian-mind-map",
   "obsidian-languagetool-plugin",
   "obsidian-plantuml",
   "calendar",
@@ -7,5 +6,8 @@
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-kanban",
   "periodic-notes",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-mindmap-nextgen",
+  "obsidian-enhancing-mindmap",
+  "obsidian-mind-map"
 ]
