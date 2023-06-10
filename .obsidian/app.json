@@ -1,5 +1,14 @@
 {
   "spellcheck": true,
   "promptDelete": false,
-  "newFileLocation": "current"
+  "newFileLocation": "current",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A5",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "./"
 }

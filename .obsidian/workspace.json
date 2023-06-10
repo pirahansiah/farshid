@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "13c3a1e40de24a29",
+        "id": "8c1b51e91d65cbf8",
         "type": "tabs",
         "children": [
           {
-            "id": "0a10fddfcb5f6a63",
+            "id": "3158ccb8b83387e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MindMap/Full Stack Large Language Models Bootcamp.md",
+                "file": "OpenCV_book/4/test.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "22bf7b9196deb3f8",
+            "id": "a74a4b2d86dfc13c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MindMap/Let's build GPT - from scratch, in code, spelled out.md",
+                "file": "MindMap/DL.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MindMap/Let's build GPT - from scratch, in code, spelled out.md",
+                "file": "MindMap/DL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MindMap/Let's build GPT - from scratch, in code, spelled out.md",
+                "file": "MindMap/DL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MindMap/Let's build GPT - from scratch, in code, spelled out.md"
+                "file": "MindMap/DL.md"
               }
             }
           },
@@ -187,31 +187,47 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "22bf7b9196deb3f8",
+  "active": "a74a4b2d86dfc13c",
   "lastOpenFiles": [
+    "OpenCV_book/4/optimization.md",
+    "OpenCV_book/4/test.md",
+    "OpenCV_book/4/DL.md",
+    "OpenCV_book/5/mindMap.md",
+    "OpenCV_book/5/Screenshot 2023-05-30 at 12.26.12.png",
+    "OpenCV_book/5/Screenshot 2023-06-07 at 19.01.57.png",
+    "Screenshot 2023-06-07 at 19.01.57.png",
+    "OpenCV_book/book.md",
+    "OpenCV_book/5",
+    "MindMap/DL.md",
+    "OpenCV_book/1/Foundations.md",
+    "OpenCV_book/0/Install in Python.md",
+    "OpenCV_book/0/Introduction.md",
+    "OpenCV_book/0/Type in OpenCV.md",
+    "OpenCV_book/4",
+    "book.pdf",
+    "OpenCV_book/1",
+    "OpenCV_book/0",
+    "OpenCV_book",
+    "WebSite/Links.md",
+    "WebSite/Home.md",
+    "WebSite/Documentation.md",
+    "WebSite/AI.md",
+    "WebSite/MindMap.md",
+    "MindMap/ChatGPT Prompt Engineering for Developers.md",
     "MindMap/Full Stack Large Language Models Bootcamp.md",
     "MindMap/Let's build GPT - from scratch, in code, spelled out.md",
-    "MindMap/Untitled mindmap.md",
-    "MindMap/book.md",
-    "WebSite/Documentation.md",
-    "WebSite/Home.md",
     "MindMap/Machine Learning Specialization 2022.md",
     "MindMap/X11.md",
-    "MindMap/Notion.md",
     "MindMap/VS Code.md",
+    "MindMap/VS Code-1.md",
+    "MindMap/Untitled mindmap.md",
     "MindMap",
-    "WebSite/MindMap.md",
-    "WebSite/Links.md",
-    "WebSite/AI.md",
-    "MindMap/ChatGPT Prompt Engineering for Developers.md",
     "WebSite",
     "README.md",
     "Personal Management.md",
     "Boostnote Markdown CheatSheet - Preview!.md",
-    "Markdown Cheat Sheet.md",
     "Pasted image 20220802121945.png",
     "Pasted image 20220802121853.png",
-    "Pasted image 20220802121949.png",
-    "[Personal Management.md"
+    "Pasted image 20220802121949.png"
   ]
 }
