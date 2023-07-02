@@ -1,1 +1,12 @@
-![[Screenshot 2023-06-07 at 19.01.57.png]]![[Screenshot 2023-05-30 at 12.26.12.png]]
+VSCode
+DL
+ChatGPT
+LLMBC 2023
+self-collected dataset
+Parallel Computing
+Object Tracking
+Optimization CV Edge
+AIoT
+git
+ML
+OpenCV

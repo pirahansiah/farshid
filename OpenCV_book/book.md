@@ -123,3 +123,19 @@ NeRF in the Wild: Neural Radiance Fields for Unconstrained
 ========
 [Sharpness](https://en.wikipedia.org/wiki/Sharpness_(visual)) ,[Noise](https://en.wikipedia.org/wiki/Image_noise), [Dynamic range](https://en.wikipedia.org/wiki/Dynamic_range), [Tone reproduction](https://en.wikipedia.org/wiki/Tone_reproduction) , [Contrast](https://en.wikipedia.org/wiki/Contrast_(vision)), [Color](https://en.wikipedia.org/wiki/Color), [Distortion](https://en.wikipedia.org/wiki/Distortion_(optics)) , [DSLR lenses](https://en.wikipedia.org/wiki/Lenses_for_SLR_and_DSLR_cameras), [Vignetting](https://en.wikipedia.org/wiki/Vignetting), [Exposure](https://en.wikipedia.org/wiki/Exposure_(photography)), Lateral [chromatic aberration](https://en.wikipedia.org/wiki/Chromatic_aberration) (LCA), [Lens flare](https://en.wikipedia.org/wiki/Lens_flare), Color, [Artifacts](https://en.wikipedia.org/wiki/Compression_artifact)
 ===========
+- OpenCV: A computer vision (CV) library filled with many different computer vision functions and other useful image and video processing and handling capabilities.
+- MQTT: A publisher-subscriber protocol often used for IoT devices due to its lightweight nature. The paho-mqtt library is a common way of working with MQTT in Python.
+- Publish-Subscribe Architecture: A messaging architecture whereby it is made up of publishers, that send messages to some central broker, without knowing of the subscribers themselves. These messages can be posted on some given “topic”, which the subscribers can then listen to without having to know the publisher itself, just the “topic”.
+- Publisher: In a publish-subscribe architecture, the entity that is sending data to a broker on a certain “topic”.
+- Subscriber: In a publish-subscribe architecture, the entity that is listening to data on a certain “topic” from a broker.
+- Topic: In a publish-subscribe architecture, data is published to a given topic, and subscribers to that topic can then receive that data.
+- FFmpeg: Software that can help convert or stream audio and video. In the course, the related ffserver software is used to stream to a web server, which can then be queried by a Node server for viewing in a web browser.
+- Flask: A [Python framework](https://www.google.com/url?q=https%3A%2F%2Fwww.fullstackpython.com%2Fflask.html&sa=D&sntz=1&usg=AOvVaw0RsnQtaW38wrzRz9BN0Ud_) useful for web development and another potential option for video streaming to a web browser.
+- Node Server: A web server built with Node.js that can handle HTTP requests and/or serve up a webpage for viewing in a browser.
+---------
+Edge, IoT
+
+ 
+
+The OpenVINO™ Toolkit’s name comes from “Open Visual Inferencing and Neural Network Optimization”.
+-------
