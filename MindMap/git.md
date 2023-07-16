@@ -1,5 +1,9 @@
 # git
 
+1. Setup and config 
+	* https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+	* https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+	* git remote set-url origin git@github.com:username/repo.git
 1. Configuration and Remote Operations:    
     - git remote -v: View remote repositories
     - git remote set-url origin [url]: Set the URL for the origin remote

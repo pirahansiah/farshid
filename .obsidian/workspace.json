@@ -4,107 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "8c1b51e91d65cbf8",
-        "type": "tabs",
+        "id": "da4586beaaea70a9",
+        "type": "split",
         "children": [
           {
-            "id": "fd8ed618a21a69e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MindMap/6.md",
-                "mode": "source",
-                "source": false
+            "id": "7ef8d24fda330c7f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "1b778b9ef2992bf5",
+                "type": "leaf",
+                "state": {
+                  "type": "image",
+                  "state": {
+                    "file": "MindMap/Pasted image 20230715005747.png"
+                  }
+                }
               }
-            }
+            ]
           },
           {
-            "id": "d3f50d93f0ae5da7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MindMap/7.md",
-                "mode": "source",
-                "source": false
+            "id": "0fa3233b3354ebaf",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "65f22ce0f7c66994",
+                "type": "leaf",
+                "state": {
+                  "type": "mindmap",
+                  "state": {}
+                }
               }
-            }
-          },
-          {
-            "id": "fd1a5a4f6a6e04be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MindMap/8.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9c04dc426c119d11",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MindMap/9.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aa42b3ae9747bba7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MindMap/10.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8a8677b178bf80f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MindMap/ML.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "17cf0ea4d8717203",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MindMap/AIoT.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "836726e70bc55cef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MindMap/ChatGPT Prompt Engineering for Developers.md",
-                "mode": "source",
-                "source": false
-              }
-            }
+            ]
           }
         ],
-        "currentTab": 7
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -162,7 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 379.5
   },
   "right": {
     "id": "3333d6faa9e09c90",
@@ -178,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MindMap/ChatGPT Prompt Engineering for Developers.md",
+                "file": "MindMap/Pasted image 20230715005747.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MindMap/ChatGPT Prompt Engineering for Developers.md",
+                "file": "MindMap/Pasted image 20230715005747.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MindMap/ChatGPT Prompt Engineering for Developers.md"
+                "file": "MindMap/Pasted image 20230715005747.png"
               }
             }
           },
@@ -259,32 +193,39 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "836726e70bc55cef",
+  "active": "1b778b9ef2992bf5",
   "lastOpenFiles": [
+    "MindMap/1.md",
+    "src",
+    "sourceCode",
+    "code",
+    "untitled folder",
+    "MindMap/2.md",
+    "MindMap/3.md",
+    "MindMap/4.md",
+    "MindMap/5.md",
+    "MindMap/6.md",
+    "MindMap/7.md",
+    "MindMap/8.md",
+    "MindMap/9.md",
+    "MindMap/10.md",
+    "MindMap/Pasted image 20230715005747.png",
+    "MindMap/LangChain Chat with Your Data.md",
     "OpenCV_book/book.md",
+    "MindMap/ML.md",
+    "MindMap/AIoT.md",
+    "MindMap/git.md",
+    "MindMap/ChatGPT Prompt Engineering for Developers.md",
     "book.pdf",
     "MindMap/activeloop.md",
-    "MindMap/AIoT.md",
     "OpenCV_book/5/mindMap.md",
     "OpenCV_book/5/OpenCV.png",
     "OpenCV_book/5/Parallel Computing.png",
     "OpenCV_book/5/Parallel Computing 1.png",
     "OpenCV_book/5/ML.png",
-    "MindMap/9.md",
-    "MindMap/10.md",
     "MindMap/MLOps***.md",
-    "MindMap/ML.md",
-    "MindMap/8.md",
-    "MindMap/7.md",
-    "MindMap/6.md",
-    "MindMap/5.md",
-    "MindMap/4.md",
-    "MindMap/3.md",
-    "MindMap/2.md",
-    "MindMap/1.md",
     "MindMap/optimize.md",
     "MindMap/DL.md",
-    "MindMap/git.md",
     "OpenCV_book/5/git.png",
     "OpenCV_book/5/AIoT.png",
     "OpenCV_book/5/Object Tracking.png",
@@ -294,16 +235,10 @@
     "OpenCV_book/5/self-collected dataset.png",
     "MindMap/check list for self-collected dataset.md",
     "OpenCV_book/5/LLMBC 2023.png",
-    "OpenCV_book/5/LLMBC 2023-3.png",
-    "OpenCV_book/4/test.md",
-    "MindMap/X11.md",
-    "MindMap/VS Code.md",
     "OpenCV_book/5",
     "OpenCV_book/4",
     "OpenCV_book/1",
     "OpenCV_book/0",
-    "OpenCV_book",
-    "MindMap",
-    "WebSite"
+    "OpenCV_book"
   ]
 }
