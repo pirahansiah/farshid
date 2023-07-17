@@ -4,41 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "da4586beaaea70a9",
-        "type": "split",
+        "id": "7ef8d24fda330c7f",
+        "type": "tabs",
         "children": [
           {
-            "id": "7ef8d24fda330c7f",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "1b778b9ef2992bf5",
-                "type": "leaf",
-                "state": {
-                  "type": "image",
-                  "state": {
-                    "file": "MindMap/Pasted image 20230715005747.png"
-                  }
-                }
+            "id": "1b778b9ef2992bf5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OpenCV_book/book.md",
+                "mode": "source",
+                "source": false
               }
-            ]
+            }
           },
           {
-            "id": "0fa3233b3354ebaf",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "65f22ce0f7c66994",
-                "type": "leaf",
-                "state": {
-                  "type": "mindmap",
-                  "state": {}
-                }
+            "id": "1cfa439cbb47a819",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OpenCV_book/3/image2video.md",
+                "mode": "source",
+                "source": false
               }
-            ]
+            }
           }
         ],
-        "direction": "horizontal"
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -112,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MindMap/Pasted image 20230715005747.png",
+                "file": "OpenCV_book/3/image2video.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MindMap/Pasted image 20230715005747.png",
+                "file": "OpenCV_book/3/image2video.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MindMap/Pasted image 20230715005747.png"
+                "file": "OpenCV_book/3/image2video.md"
               }
             }
           },
@@ -193,8 +187,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1b778b9ef2992bf5",
+  "active": "1cfa439cbb47a819",
   "lastOpenFiles": [
+    "OpenCV_book/1/Foundations.md",
+    "OpenCV_book/3/image2video.md",
+    "OpenCV_book/book.md",
+    "OpenCV_book/4/test.md",
+    "OpenCV_book/3",
+    "OpenCV_book/2",
+    "MindMap/Pasted image 20230715005747.png",
     "src/env.py",
     "MindMap/1.md",
     "src",
@@ -210,9 +211,7 @@
     "MindMap/8.md",
     "MindMap/9.md",
     "MindMap/10.md",
-    "MindMap/Pasted image 20230715005747.png",
     "MindMap/LangChain Chat with Your Data.md",
-    "OpenCV_book/book.md",
     "MindMap/ML.md",
     "MindMap/AIoT.md",
     "MindMap/git.md",
@@ -232,14 +231,9 @@
     "OpenCV_book/5/Object Tracking.png",
     "MindMap/Object Tracking.md",
     "MindMap/parallel computing.md",
-    "MindMap/Improving the Performance of Deep Learning Models for Industrial Applications.md",
     "OpenCV_book/5/self-collected dataset.png",
-    "MindMap/check list for self-collected dataset.md",
     "OpenCV_book/5/LLMBC 2023.png",
     "OpenCV_book/5",
-    "OpenCV_book/4",
-    "OpenCV_book/1",
-    "OpenCV_book/0",
-    "OpenCV_book"
+    "OpenCV_book/4"
   ]
 }

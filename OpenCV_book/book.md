@@ -7,7 +7,8 @@
 * chapter 1
 	* ![[Foundations]]
 * chapter 2
-* chapter 3
+* chapter 3: some example projects, practical, useful, ...
+	* [[image2video]]
 * chapter 4
 	* [[test]]
 	* [[OpenCV_book/4/DL]]
