@@ -1,5 +1,5 @@
-OpenVINO™ Deep Learning
-- build
+# OpenVINO™ Deep Learning
+- build 
 - optimize
     - model optimizer -&gt; IR -&gt; inference engine
     - deep learning streamer; openCV, openCL
@@ -18,7 +18,7 @@ OpenVINO™ Deep Learning
                 - quantization algorithms
                     - max performance (with uncontrollable accuracy drop ˜1%)
                     - max accuracy: performance boost with controllable accuracy drop
-        - step 3 performance finetuning
+        - performance fine-tuning
             - benchmarking
             - hyper parameters tuning
             - performance/accuracy analysis
@@ -37,4 +37,3 @@ OpenVINO™ Deep Learning
     - it based on Docker
     - trust the model by see it in validation dataset which can see the model where to detect information
     - comparison of optimized
-    - 

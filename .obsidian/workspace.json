@@ -4,68 +4,43 @@
     "type": "split",
     "children": [
       {
-        "id": "ea35afb8e61ffe81",
-        "type": "split",
+        "id": "8ab36158e32b510c",
+        "type": "tabs",
         "children": [
           {
-            "id": "7ef8d24fda330c7f",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "1b778b9ef2992bf5",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "OpenCV_book/book.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "1cfa439cbb47a819",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "OpenCV_book/3/image2video.md",
-                    "mode": "source",
-                    "source": true
-                  }
-                }
-              },
-              {
-                "id": "bf4eee1f711fedb1",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "OpenCV_book/3/image2pdf.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
+            "id": "adbcedb0c943a947",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MindMap/1.md",
+                "mode": "source",
+                "source": false
               }
-            ],
-            "currentTab": 2
+            }
           },
           {
-            "id": "c19fb7290a668de7",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "ce6b15850b13b16b",
-                "type": "leaf",
-                "state": {
-                  "type": "mindmap",
-                  "state": {}
-                }
+            "id": "9e03e9716cd0d435",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MindMap/LLMs.md",
+                "mode": "source",
+                "source": false
               }
-            ]
+            }
+          },
+          {
+            "id": "88a3ff8d2556736e",
+            "type": "leaf",
+            "state": {
+              "type": "mindmap",
+              "state": {}
+            }
           }
         ],
-        "direction": "horizontal"
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 379.5
+    "width": 379.5,
+    "collapsed": true
   },
   "right": {
     "id": "3333d6faa9e09c90",
@@ -139,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenCV_book/3/image2pdf.md",
+                "file": "MindMap/LLMs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OpenCV_book/3/image2pdf.md",
+                "file": "MindMap/LLMs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OpenCV_book/3/image2pdf.md"
+                "file": "MindMap/LLMs.md"
               }
             }
           },
@@ -220,44 +196,45 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "bf4eee1f711fedb1",
+  "active": "9e03e9716cd0d435",
   "lastOpenFiles": [
-    "OpenCV_book/3/Pasted image 20230718204609.png",
-    "OpenCV_book/3/image2video.md",
-    "OpenCV_book/3/image2pdf.md",
+    "src/Llama 2 with >4k tokens.py",
+    "src/tiles/tile_2_2.png",
+    "src/tiles/tile_1_2.png",
+    "src/tiles/tile_0_2.png",
+    "src/tiles/tile_2_1.png",
+    "src/tiles/tile_1_1.png",
+    "src/tiles/tile_0_1.png",
+    "src/tiles/tile_2_0.png",
+    "src/tiles/tile_1_0.png",
+    "src/tiles/tile_0_0.png",
+    "MindMap/1.md",
+    "MindMap/LLMs.md",
     "OpenCV_book/book.md",
+    "OpenCV_book/3/image2video.md",
+    "MindMap/OpenVINO™ Deep Learning.md",
+    "src/tiles/tile_4_4.png",
+    "src/tiles",
+    "src/insta-split.py",
+    "src/instaImage.py",
+    "src/image2video copy.py",
+    "MindMap/7.md",
+    "MindMap/8.md",
+    "MindMap/9.md",
+    "OpenCV_book/3/image2pdf.md",
     "MindMap/CC.md",
-    "src/qrcode/51-presentation-PPT-slides.png",
-    "src/qrcode/presentation-PPT-slides.png",
-    "src/qrcode/51_presentation-PPT-slides.png",
     "src/qrCode.mp4",
-    "src/qrcode/27_FaceBook.png",
-    "src/qrcode/29_(www.tiziran.com).png",
-    "src/qrcode/29_(www.pirahansiah.com).png",
     "src/qrCode-14.mp4",
-    "src/qrcode/50_MindMaps.png",
-    "src/qrcode/44_Mastodon.png",
-    "src/qrcode/38_WhatsApp.png",
-    "src/qrcode/34_GitHub.png",
     "src/qrcode.pdf",
     "src/qrcode.pdf.sb-9ee12277-9wPBxh",
     "src/output.pdf",
     "src/image2pdf.py",
-    "src/pirahansiah.mp4",
-    "src/pirahansiah-1h.mp4",
     "OpenCV_book/1/Foundations.md",
     "OpenCV_book/4/test.md",
-    "OpenCV_book/3",
-    "OpenCV_book/2",
-    "MindMap/1.md",
     "MindMap/2.md",
     "MindMap/3.md",
     "MindMap/4.md",
     "MindMap/5.md",
-    "MindMap/6.md",
-    "MindMap/7.md",
-    "MindMap/8.md",
-    "MindMap/9.md",
     "MindMap/LangChain Chat with Your Data.md",
     "MindMap/ML.md",
     "MindMap/AIoT.md",
@@ -266,7 +243,6 @@
     "MindMap/activeloop.md",
     "OpenCV_book/5/mindMap.md",
     "MindMap/MLOps***.md",
-    "MindMap/optimize.md",
-    "MindMap/DL.md"
+    "MindMap/optimize.md"
   ]
 }
