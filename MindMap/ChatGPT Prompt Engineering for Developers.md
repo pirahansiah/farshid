@@ -1,8 +1,13 @@
 
 
-# ChatGPT
-
-* introduction 
+# ChatGPT - July 2023
+* list of alternative to chatGPT
+	* ***https://bard.google.com***
+	* https://www.bing.com/new 
+	* https://chat.openai.com/
+	* https://claude.ai/chat/ 	 
+	* https://platform.openai.com/playground?mode=chat&model=gpt-4 
+* introduction  
 	* principles
 		* 1: write clear and specific instructions
 		* 2: give the model time to think

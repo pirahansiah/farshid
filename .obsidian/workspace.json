@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MindMap/LLMs.md",
+                "file": "MindMap/ChatGPT Farsi.rtl.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 379.5,
-    "collapsed": true
+    "width": 379.5
   },
   "right": {
     "id": "3333d6faa9e09c90",
@@ -115,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MindMap/LLMs.md",
+                "file": "MindMap/ChatGPT Farsi.rtl.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MindMap/LLMs.md",
+                "file": "MindMap/ChatGPT Farsi.rtl.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MindMap/LLMs.md"
+                "file": "MindMap/ChatGPT Farsi.rtl.md"
               }
             }
           },
@@ -198,6 +197,28 @@
   },
   "active": "9e03e9716cd0d435",
   "lastOpenFiles": [
+    "src/threshold.py",
+    "src/text_video.avi",
+    "src/line2video.py",
+    "src/requirements.txt",
+    "src/requirements1 copy.txt",
+    "src/requirements1.txt",
+    "src/Makefile",
+    "src/Makefile1",
+    "MindMap/ChatGPT Prompt Engineering for Developers.md",
+    "MindMap/ChatGPT Farsi.md",
+    "MindMap/ChatGPT Farsi.rtl.md",
+    "OpenCV_book/1/Foundations.md",
+    "MindMap/chatgpt.html",
+    "MindMap/AIoT.md",
+    "MindMap/1.md",
+    "MindMap/9.md",
+    "MindMap/2.md",
+    "MindMap/3.md",
+    "MindMap/8.md",
+    "MindMap/7.md",
+    "MindMap/5.md",
+    "MindMap/LLMs.md",
     "src/Llama 2 with >4k tokens.py",
     "src/tiles/tile_2_2.png",
     "src/tiles/tile_1_2.png",
@@ -208,41 +229,19 @@
     "src/tiles/tile_2_0.png",
     "src/tiles/tile_1_0.png",
     "src/tiles/tile_0_0.png",
-    "MindMap/1.md",
-    "MindMap/LLMs.md",
     "OpenCV_book/book.md",
     "OpenCV_book/3/image2video.md",
     "MindMap/OpenVINO™ Deep Learning.md",
     "src/tiles/tile_4_4.png",
     "src/tiles",
-    "src/insta-split.py",
-    "src/instaImage.py",
-    "src/image2video copy.py",
-    "MindMap/7.md",
-    "MindMap/8.md",
-    "MindMap/9.md",
     "OpenCV_book/3/image2pdf.md",
     "MindMap/CC.md",
-    "src/qrCode.mp4",
-    "src/qrCode-14.mp4",
-    "src/qrcode.pdf",
-    "src/qrcode.pdf.sb-9ee12277-9wPBxh",
-    "src/output.pdf",
-    "src/image2pdf.py",
-    "OpenCV_book/1/Foundations.md",
     "OpenCV_book/4/test.md",
-    "MindMap/2.md",
-    "MindMap/3.md",
     "MindMap/4.md",
-    "MindMap/5.md",
     "MindMap/LangChain Chat with Your Data.md",
     "MindMap/ML.md",
-    "MindMap/AIoT.md",
     "MindMap/git.md",
-    "MindMap/ChatGPT Prompt Engineering for Developers.md",
     "MindMap/activeloop.md",
-    "OpenCV_book/5/mindMap.md",
-    "MindMap/MLOps***.md",
-    "MindMap/optimize.md"
+    "OpenCV_book/5/mindMap.md"
   ]
 }
