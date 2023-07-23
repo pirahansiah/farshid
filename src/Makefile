@@ -22,13 +22,6 @@ dev_environment:  ## installs required environment for development & document co
 
 run:
 	python 0000.py
-
-
-
-
-
-
-
 update: ## conda update ; pip update 
 
 	conda update -y -n base -c defaults conda		

@@ -9,10 +9,14 @@
 * chapter 2
 * chapter 3: some example projects, practical, useful, ...
 	* [[image2video]]
-	* 
+	* [[Text2Video]]
+	* [[image2pdf]]
 * chapter 4
 	* [[test]]
 	* [[OpenCV_book/4/DL]]
+	* [[OpenCV_book/4/Makefile|Makefile]]
+	* [[optimization]]
+	* 
 * chapter 5
 	* [[mindMap]]
 
