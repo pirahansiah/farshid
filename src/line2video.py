@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-fileName='line2video.py'
+fileName='/Users/farshid/code/__!myWork/farshid/MindMap/LLAMA.md'
 font=cv2.FONT_HERSHEY_SIMPLEX
 font_scale=1
 thickness=1

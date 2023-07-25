@@ -13,34 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MindMap/1.md",
+                "file": "MindMap/LLAMA.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "9e03e9716cd0d435",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OpenCV_book/book.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "88a3ff8d2556736e",
-            "type": "leaf",
-            "state": {
-              "type": "mindmap",
-              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OpenCV_book/book.md",
+                "file": "MindMap/LLAMA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OpenCV_book/book.md",
+                "file": "MindMap/LLAMA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OpenCV_book/book.md"
+                "file": "MindMap/LLAMA.md"
               }
             }
           },
@@ -195,52 +174,52 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9e03e9716cd0d435",
+  "active": "adbcedb0c943a947",
   "lastOpenFiles": [
+    "MindMap/LLMs.md",
+    "MindMap/ChatGPT Prompt Engineering for Developers.md",
+    "MindMap/LLAMA.md_.mp4",
+    "MindMap/LLAMA.md",
+    "MindMap/ChatGPT Prompt Engineering for Developers copy.md",
+    "MindMap/AIoT.md",
+    "OpenCV_book/5/AIoT.png",
+    "src/MindMaps.mp4",
+    "src/image2video_mindmaps.py",
+    "src/image2video copy.py",
+    "src/images/CC.png",
+    "src/images/cc2.png",
+    "src/images/OpenVINO.png",
+    "src/images/Llama-v2.png",
+    "src/images/Screen Shot 2021-08-29 at 10.02.06.png",
+    "src/images/Screen Shot 2021-08-28 at 08.06.27.png",
+    "src/images/Screen Shot 2021-08-28 at 08.05.23.png",
+    "src/images/Screen Shot 2021-08-21 at 11.13.24.png",
+    "src/images/Screen Shot 2021-08-21 at 09.10.51.png",
+    "MindMap/LLMs.html",
+    "MindMap/1.md",
+    "book.pdf",
+    "WebSite/Documentation.md",
+    "MindMap/9.md",
+    "MindMap/8.md",
+    "MindMap/7.md",
+    "MindMap/5.md",
+    "MindMap/4.md",
+    "MindMap/3.md",
+    "MindMap/2.md",
+    "OpenCV_book/book.md",
     "OpenCV_book/4/Makefile.md",
-    "OpenCV_book/4/MakeFile.png",
     "OpenCV_book/3/Text2Video.md",
-    "OpenCV_book/3/text2video.png",
     "OpenCV_book/3/image2pdf.md",
     "OpenCV_book/3/image2video.md",
-    "OpenCV_book/3/Pasted image 20230718204609.png",
     "MindMap/ChatGPT Farsi.rtl.md",
     "src/line2video.py_.mp4",
     "src/thresholding2.mp4",
     "src/thresholding.mp4",
     "src/thresholding.avi",
-    "src/threshold.py",
-    "src/text_video.avi",
-    "src/line2video.py",
-    "src/requirements.txt",
-    "src/requirements1 copy.txt",
-    "src/requirements1.txt",
-    "MindMap/ChatGPT Prompt Engineering for Developers.md",
     "MindMap/ChatGPT Farsi.md",
     "OpenCV_book/1/Foundations.md",
-    "MindMap/AIoT.md",
-    "MindMap/1.md",
-    "MindMap/9.md",
-    "MindMap/2.md",
-    "MindMap/3.md",
-    "MindMap/8.md",
-    "MindMap/7.md",
-    "MindMap/5.md",
-    "MindMap/LLMs.md",
-    "src/tiles/tile_2_2.png",
-    "src/tiles/tile_1_2.png",
-    "src/tiles/tile_0_2.png",
-    "src/tiles/tile_2_1.png",
-    "src/tiles/tile_1_1.png",
-    "src/tiles/tile_0_1.png",
-    "src/tiles/tile_2_0.png",
-    "OpenCV_book/book.md",
     "MindMap/OpenVINO™ Deep Learning.md",
     "MindMap/CC.md",
-    "OpenCV_book/4/test.md",
-    "MindMap/4.md",
-    "MindMap/LangChain Chat with Your Data.md",
-    "MindMap/ML.md",
-    "MindMap/git.md"
+    "OpenCV_book/4/test.md"
   ]
 }

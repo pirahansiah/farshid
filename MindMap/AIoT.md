@@ -1,4 +1,4 @@
-# AIoT
+# LLMs : reduce size & increase speed
 * Pruning
 	* go for bigger size of network with many layers then pruning much better and faster
 	* model pruning: reducing redundant parameters which are not sensitive to the performance
