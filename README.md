@@ -91,3 +91,27 @@ Python utilities in `src/` folder:
 ## Download Source Codes
 
 All repositories are available at [github.com/pirahansiah](https://github.com/pirahansiah)
+
+## 12-Month Roadmap (2025-2026)
+
+| Month | Milestone |
+|-------|-----------|
+| **Jul 2025** | Python 3.10+ migration, type hints on all modules, pathlib adoption |
+| **Aug 2025** | Pytest test suite >80% coverage, CI/CD with GitHub Actions |
+| **Sep 2025** | Docker multi-stage builds, GPU support (NVIDIA runtime) |
+| **Oct 2025** | YOLOv11 integration for QR code detection |
+| **Nov 2025** | Video generation: background music, transitions, overlays |
+| **Dec 2025** | Edge deployment guide (Jetson, Raspberry Pi) |
+| **Jan 2026** | TensorRT 10 optimization for video processing |
+| **Feb 2026** | Vision-Language Model examples (image captioning) |
+| **Mar 2026** | Multi-camera processing pipeline |
+| **Apr 2026** | GStreamer pipeline integration for real-time video |
+| **May 2026** | MediaPipe advanced (face mesh for image processing) |
+| **Jun 2026** | v1.0 release, comprehensive documentation |
+
+### Version History
+
+| Version | Date | Changes |
+|---------|------|---------|
+| 1.0.0 | 2025 | Full modernization: Python 3.10+, type hints, pathlib, pytest, Docker |
+| 0.x | 2019-2024 | Initial workshop materials |

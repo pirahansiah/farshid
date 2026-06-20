@@ -1,34 +1,68 @@
+"""Convert text file lines to video frames."""
+
+from __future__ import annotations
+
+from pathlib import Path
+
 import cv2
 import numpy as np
-fileName='/Users/farshid/code/__!myWork/farshid/MindMap/LLAMA.md'
-font=cv2.FONT_HERSHEY_SIMPLEX
-font_scale=1
-thickness=1
-color=(255,255,255)
-tab_size = 1 
-textHeight = 50 
-textX=10
-textY=50
-image = np.zeros((900,900,3), np.uint8)
-with open(fileName, 'r') as f:
-    lines = f.read().splitlines() 
-fourcc = cv2.VideoWriter_fourcc(*'MJPG')
-video = cv2.VideoWriter(fileName+'_.mp4', fourcc, 1, (900,900))
-for line1 in lines:
-    line = line1.expandtabs(tab_size)  
-    if textY<800:
-        textY=textY+50
-    else:
-        image = np.zeros((900,900,3), np.uint8)
-        textY=50
-    (w, h), _ = cv2.getTextSize(line, font, 1, thickness)
-    w=w+200
-    scale = image.shape[1] / w
-    scale = min(scale, 1.0)  
-    textSize = cv2.getTextSize(line, font, scale, thickness)
-    textWidth = textSize[0][0]
-    cv2.putText(image, line, (5,textY), font, scale, color, thickness)
-    textHeight += textSize[0][1] 
-    video.write(image)
-video.release()
-# www.pirahansiah.com
+
+
+def text_to_video(
+    input_file: Path,
+    output_file: Path | None = None,
+    width: int = 900,
+    height: int = 900,
+    fps: int = 1,
+    tab_size: int = 1,
+) -> Path:
+    """Convert a text file to a video where each line becomes frames.
+
+    Args:
+        input_file: Path to text file.
+        output_file: Output video path. Defaults to input_file + '_.mp4'.
+        width: Video width.
+        height: Video height.
+        fps: Frames per second.
+        tab_size: Tab expansion size.
+
+    Returns:
+        Path to the output video.
+    """
+    if output_file is None:
+        output_file = input_file.with_suffix(input_file.suffix + "_.mp4")
+
+    font = cv2.FONT_HERSHEY_SIMPLEX
+    thickness = 1
+    color = (255, 255, 255)
+
+    text_y = 50
+    image = np.zeros((height, width, 3), np.uint8)
+    fourcc = cv2.VideoWriter_fourcc(*"MJPG")
+    video = cv2.VideoWriter(str(output_file), fourcc, fps, (width, height))
+
+    with open(input_file, "r", encoding="utf-8") as f:
+        lines = f.read().splitlines()
+
+    for line_text in lines:
+        line = line_text.expandtabs(tab_size)
+        if text_y < height - 100:
+            text_y += 50
+        else:
+            image = np.zeros((height, width, 3), np.uint8)
+            text_y = 50
+        (w, _), _ = cv2.getTextSize(line, font, 1, thickness)
+        w += 200
+        scale = min(image.shape[1] / w, 1.0)
+        cv2.getTextSize(line, font, scale, thickness)
+        cv2.putText(image, line, (5, text_y), font, scale, color, thickness)
+        video.write(image)
+
+    video.release()
+    return output_file
+
+
+if __name__ == "__main__":
+    import sys
+    path = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("input.txt")
+    text_to_video(path)

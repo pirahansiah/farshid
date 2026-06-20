@@ -1,108 +1,89 @@
+"""Convert images to video with captions."""
+
+from __future__ import annotations
+
+from pathlib import Path
 
 import cv2
 import numpy as np
-import os
-import glob
-w=3840
-h=2160
-time_video_min=0.5
-calcFrames=int(time_video_min*60*15)
-def resize_with_aspect_ratio(image, new_width, new_height):
-    cropped_images = []
-    height, width = image.shape[:2]    
-    crop_x = (width - new_width) // 2
-    crop_y = (height - new_height) // 2
+
+
+def resize_with_aspect_ratio(
+    image: np.ndarray, new_width: int, new_height: int
+) -> list[np.ndarray]:
+    """Crop image into tiles of given size."""
+    cropped: list[np.ndarray] = []
+    height, width = image.shape[:2]
     for i in range(height // new_height):
         for j in range(width // new_width):
-            x = crop_x + j * new_width
-            y = crop_y + i * new_height
-            cropped_image = image[y:y+new_height, x:x+new_width]
-            cropped_images.append(cropped_image)
-            #cv2.imshow("test",cropped_image)
-            #cv2.waitKey(200)    
-    return cropped_images
+            y = i * new_height
+            x = j * new_width
+            cropped.append(image[y : y + new_height, x : x + new_width])
+    return cropped
 
-def copyBig(small,big):
-    center_y = big.shape[0]//2
-    center_x = big.shape[1]//2
+
+def copy_big(small: np.ndarray, big: np.ndarray) -> np.ndarray:
+    """Center-copy small image onto big canvas."""
+    center_y = big.shape[0] // 2
+    center_x = big.shape[1] // 2
     h, w = small.shape[:2]
-    roi_top = center_y - h//2
-    roi_bottom = roi_top + h
-    roi_left = center_x - w//2
-    roi_right = roi_left + w
-    roi = big[roi_top:roi_bottom, roi_left:roi_right]
-    img1_resized = cv2.resize(small, (w, h)) 
-    np.copyto(roi, img1_resized)
-    # cv2.imshow("test",big)
-    # cv2.waitKey(200)
+    roi = big[center_y - h // 2 : center_y - h // 2 + h, center_x - w // 2 : center_x - w // 2 + w]
+    np.copyto(roi, cv2.resize(small, (w, h)))
     return big
-cropped_images=[]
-img_array = []
-for filename in glob.glob('images/*.png'):
-    img = cv2.imread(filename)
-    img=cv2.resize(img,(w,h))
-    img_array.append(img)
-   
-qrcode_array = []
-files_qrcode=glob.glob('qrcode/*.png')
-sorted_file_paths = sorted(files_qrcode)
-for filepath in sorted_file_paths: #glob.glob('qrcode/*.png'):
-    big_image=np.zeros(( h,w, 3),dtype=np.uint8) # np is not opencv the h,w is w,h
-    img = cv2.imread(filepath)
-    #filename = os.path.basename(filepath)
-    filename = os.path.splitext(os.path.basename(filepath))[0]
-    img=cv2.resize(img,( 600,600))
-    #big_image=copyBig(img,big_image)
-    #qrcode_array.append(img)    
-    qrcode_array.append((filename[3:], img))
-
-out = cv2.VideoWriter('qrCode.mp4',cv2.VideoWriter_fourcc(*'FMP4'), 15,(800,900)) # (w,h))
 
 
-# for j in range(len(img_array)): 
-#     for i in range(calcFrames*5):
-#         out.write(img_array[j])
+def create_qr_video(
+    image_dir: Path,
+    qrcode_dir: Path,
+    output_file: Path,
+    width: int = 800,
+    height: int = 900,
+    fps: int = 15,
+    frames_per_image: int = 45,
+) -> Path:
+    """Create video from QR code images with captions.
+
+    Args:
+        image_dir: Directory with regular images.
+        qrcode_dir: Directory with QR code PNGs.
+        output_file: Output video path.
+        width: Video width.
+        height: Video height.
+        fps: Frames per second.
+        frames_per_image: Frames to hold each image.
+
+    Returns:
+        Path to output video.
+    """
+    qrcode_files = sorted(qrcode_dir.glob("*.png"))
+    out = cv2.VideoWriter(
+        str(output_file), cv2.VideoWriter_fourcc(*"FMP4"), fps, (width, height)
+    )
+
+    for filepath in qrcode_files:
+        filename = filepath.stem
+        img = cv2.imread(str(filepath))
+        if img is None:
+            continue
+        img = cv2.resize(img, (600, 600))
+        canvas = cv2.copyMakeBorder(
+            img, 0, 100, 0, 0, cv2.BORDER_CONSTANT, value=(0, 0, 0)
+        )
+        cv2.putText(
+            canvas, filename[3:], (10, img.shape[0] + 40),
+            cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 2, cv2.LINE_AA,
+        )
+        canvas = cv2.resize(canvas, (width, height))
+        for _ in range(frames_per_image):
+            out.write(canvas)
+
+    out.release()
+    return output_file
 
 
-# for j in range(len(qrcode_array)): 
-#     for i in range(calcFrames):
-#         out.write(qrcode_array[j])
-# out.release()
-
-
-for filename, frame in qrcode_array:
-    # Add the filename as a caption
-    #caption = f'File: {filename}'
-    #cv2.putText(frame, caption, (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2, cv2.LINE_AA)
-    canvas = cv2.copyMakeBorder(frame, 0, 100, 0, 0, cv2.BORDER_CONSTANT, value=(0, 0, 0))  # Add space for the caption
-
-    # Add the filename as a caption
-    caption = f' {filename}'
-    cv2.putText(canvas, caption, (10, frame.shape[0] + 40), cv2.FONT_HERSHEY_SIMPLEX, 1, (255,255, 255), 2, cv2.LINE_AA)
-
-    canvas=cv2.resize(canvas,( 800,900))
-    # Repeat the frame multiple times
-    for _ in range(calcFrames):
-        out.write(canvas)
-
-
-'''
-How to create a video with images in Python using OpenCV library
-The OpenCV library is a powerful tool for computer vision. 
-It can be used to create videos with images, and other types of media.
-This code creates a video with images. The images are resized to 3840x2160 pixels.
-The video is encoded with the FMP4 codec and has a frame rate of 15 frames per second.
-
-    # if 1: #img.shape[0]>w or img.shap[0]>h:
-    #     print ("not good")
-    #     new_width=600 #img.shap[0]
-    #     new_height=600
-    #     cropped_images = resize_with_aspect_ratio(img, new_width, new_height)
-    #     # Save the cropped images
-    #     for i, cropped_image in enumerate(cropped_images):
-    #         #cv2.imwrite(f'cropped_image_{i}.jpg', cropped_image)
-    #         cropped_image=cv2.resize(cropped_image,(w,h))
-    #         img_array.append(cropped_image)
-
-
-'''
+if __name__ == "__main__":
+    create_qr_video(
+        image_dir=Path("images"),
+        qrcode_dir=Path("qrcode"),
+        output_file=Path("qrCode.mp4"),
+    )
